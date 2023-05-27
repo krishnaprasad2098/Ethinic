@@ -112,7 +112,11 @@ const Navbar = () => {
               </div>
 
               <Link to="/userprofile">
-                <img src={profilelogo} className="profile-icon" />
+                <img
+                  src={profilelogo}
+                  className="profile-icon"
+                  alt="profilelogo"
+                />
               </Link>
               <button className="logout-btn" onClick={handleLogout}>
                 Logout
