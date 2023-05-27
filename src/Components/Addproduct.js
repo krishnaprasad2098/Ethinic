@@ -104,7 +104,7 @@ const Addproduct = () => {
   return (
     <div>
       <Navbar />
-      {loggeduser && loggeduser[0].email === "payamma.krishna@gmail.com" ? (
+      {loggeduser && loggeduser[0].email === "ravindran5211@gmail.com" ? (
         <div className="addprod-container">
           <form onSubmit={handleAddProduct} className="addprod-form">
             <p>Add Data</p>

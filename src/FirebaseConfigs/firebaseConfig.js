@@ -5,14 +5,15 @@ import { getFirestore } from "firebase/firestore";
 import { getStorage } from "firebase/storage";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyCX7n1yeipLRWYg2gom4pHO6Rn4nOpv15o",
-  authDomain: "mini-project-e8608.firebaseapp.com",
-  projectId: "mini-project-e8608",
-  storageBucket: "mini-project-e8608.appspot.com",
-  messagingSenderId: "183577511896",
-  appId: "1:183577511896:web:9132d41d061b693fd594ad",
-  measurementId: "G-N92QP6071K",
+  apiKey: "AIzaSyCj-gE_Tk8eJNYKlVOZd74lOOq7SuCIdEg",
+  authDomain: "miniproject-13a52.firebaseapp.com",
+  projectId: "miniproject-13a52",
+  storageBucket: "miniproject-13a52.appspot.com",
+  messagingSenderId: "454260194382",
+  appId: "1:454260194382:web:2bbbd9398d2564f43b571f",
+  measurementId: "G-LWWPSPYM14"
 };
+
 
 const app = initializeApp(firebaseConfig);
 export const auth = getAuth(app);
