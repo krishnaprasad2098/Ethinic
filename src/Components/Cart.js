@@ -4,6 +4,7 @@ import Navbar from "./Navbar";
 import { auth, db } from "../FirebaseConfigs/firebaseConfig";
 import { collection, getDocs, query, where } from "firebase/firestore";
 import CartCard from "./CartCard";
+import Checkout from "./Checkout";
 import "./Cart.css";
 
 const Cart = () => {
@@ -69,7 +70,9 @@ const Cart = () => {
               />
             ))}
             <div className="proceed">
-              <button>Proceed</button>
+              <Link to="/Checkout">
+                <button>Proceed</button>
+              </Link>
             </div>
           </div>
         </div>
