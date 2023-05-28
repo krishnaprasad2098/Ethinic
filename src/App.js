@@ -12,6 +12,7 @@ import Allproductpage from "./Components/Some-Product-Components/Allproductpage"
 
 import Specificproductpage from "./Components/Some-Product-Components/Specificproductpage";
 import Cart from "./Components/Cart";
+import Checkout from "./Components/Checkout";
 
 function App() {
   return (
@@ -49,6 +50,7 @@ function App() {
           element={<Specificproductpage />}
         />
         <Route exact path="/cartdata" element={<Cart />} />
+        <Route exact path="/Checkout" element={<Checkout />} />
         <Route path="*" element={<PgFOF />} />
       </Routes>
     </BrowserRouter>
