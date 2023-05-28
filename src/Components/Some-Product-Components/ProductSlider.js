@@ -4,6 +4,7 @@ import "react-multi-carousel/lib/styles.css";
 import Sliderproductcard from "./Sliderproductcard";
 import { collection, query, onSnapshot, getDocs } from "firebase/firestore";
 import { db } from "../../FirebaseConfigs/firebaseConfig";
+// import "./ProductSlider.css";
 
 const ProductSlider = (props) => {
   const responsive = {
@@ -49,7 +50,7 @@ const ProductSlider = (props) => {
   }, []);
 
   return (
-    <div>
+    <div className="carasouel-card">
       <Carousel responsive={responsive}>
         {products.map((product) => (
           <Sliderproductcard key={product.id} product={product} />
