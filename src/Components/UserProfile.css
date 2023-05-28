@@ -4,6 +4,8 @@
     margin-top: 200px;
     justify-content: center;
     align-items: center;
+    padding-left:1rem;
+    padding-right:1rem;
 }
 
 .user-profile {
@@ -17,7 +19,11 @@
     font-size: 30px;
     color: white;
     font-weight: 700;
-
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    padding-top: 0.5rem;
+    padding-bottom:0.5rem;
     border-bottom: 3px solid white;
 }
 
@@ -28,9 +34,9 @@
 }
 
 .data-row span {
-    width: 50%;
+    max-width: 100%;
     padding: 10px;
-    border: 2px solid;
+    /* border: 2px solid; */
     font-size: 18px;
 }
 
