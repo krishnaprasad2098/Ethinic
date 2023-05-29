@@ -6,8 +6,8 @@
     padding: 10px;
     align-items: center;
     justify-content: space-between;
-    /* max-width: 24rem; */
-    gap:2rem;
+    max-width: 24rem;
+    /* gap:2rem; */
 }
 
 .cart-prod-imgtitle {
@@ -63,7 +63,7 @@
 
 
 .prodprice {
-    width: 20%;
+    /* width: 20%; */
     display: flex;
     justify-content: right;
     font-size: 20px;
