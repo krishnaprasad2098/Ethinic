@@ -9,6 +9,7 @@
     justify-content: space-evenly;
     padding: 1rem;
     align-items: center;
+    gap:2.5rem;
     /* height: 300px; */
 }
 
@@ -18,10 +19,14 @@
     /* max-height: 100%; */
     max-width: 25%;
     /* margin-right: 10px; */
+    aspect-ratio:1/1;
 }
 
 .product-details {
-    width: 70%;
+    display:flex;
+    flex-direction:column;
+    gap:0.5rem;
+    width: 100%;
 }
 
 .producttitle {
@@ -36,6 +41,7 @@
     display: flex;
     padding: 0px;
     margin: 0px;
+    font-weight:700;
     flex-direction: column;
 }
 
@@ -81,4 +87,26 @@
 .buy-cart .btn:hover {
     background-color: black;
     color: #ffbb00;
+}
+
+.moredetails-button{
+    padding: 0.5rem 0.5rem;
+    display:grid;
+    place-items: center;
+}
+
+@media only screen and (max-width:900px){
+    .product-container{
+        flex-direction:column;
+        gap:0.5rem;
+    }
+
+    .producttitle{
+        font-size:20px;
+    }
+    .product-container img{
+         max-width:50%;
+         aspect-ratio:1;
+    }
+
 }
