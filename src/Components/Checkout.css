@@ -18,5 +18,14 @@ h1 {
 
   .continue-shopping{
     padding:1rem;
-    margin:0 auto;
+    display:grid;
+    place-items:center;
+  }
+
+  .continue-shopping button{
+    padding:1rem;
+    border-radius:5px;
+    background-color: orange;
+    color:aliceblue;
+    border: none;
   }
