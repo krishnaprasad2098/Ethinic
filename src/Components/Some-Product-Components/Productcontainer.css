@@ -3,22 +3,22 @@
     flex-direction: row;
     background-color: rgb(255, 255, 255);
     margin: 5px;
-    /* width: 550px; */
+    
     border: 1px solid rgb(245, 245, 245);
     box-shadow: 0px 0px 5px 0px grey;
     justify-content: space-evenly;
     padding: 1rem;
     align-items: center;
     gap:2.5rem;
-    /* height: 300px; */
+    
 }
 
 .product-container img {
     height: fit-content;
     width: fit-content;
-    /* max-height: 100%; */
+    
     max-width: 25%;
-    /* margin-right: 10px; */
+    
     aspect-ratio:1/1;
 }
 
