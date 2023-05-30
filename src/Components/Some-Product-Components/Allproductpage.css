@@ -1,6 +1,6 @@
 .allproductpage .heading {
     background-color: rgb(240, 240, 240);
-    /* height: 100px; */
+   
     display: flex;
     justify-content: center;
     align-items: center;
@@ -13,10 +13,7 @@
 }
 
 .allproductpage .allproductcontainer {
-    /* display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center; */
+    
     display:grid;
     grid-template-columns: 1fr 1fr 1fr;
     align-items: center;
