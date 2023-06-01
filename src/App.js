@@ -52,6 +52,7 @@ function App() {
         <Route exact path="/cartdata" element={<Cart />} />
         <Route exact path="/Checkout" element={<Checkout />} />
         <Route exact path="/Home" element={<Home />} />
+        <Route exact path="/Cart" element={<Cart />} />
         <Route path="*" element={<PgFOF />} />
       </Routes>
     </BrowserRouter>
