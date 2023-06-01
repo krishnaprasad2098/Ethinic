@@ -99,9 +99,13 @@ const Specificproductpage = () => {
 
       {product ? (
         <div className="myprod-container">
-          <div className="prod-img-cont">
-            <img src={product.prodimage} alt="product_image" />
-          </div>
+          {/* <div className="prod-img-cont"> */}
+          <img
+            src={product.prodimage}
+            alt="product_image"
+            className="prod-img-cont"
+          />
+          {/* </div> */}
 
           <div className="prod-data">
             <p className="prod-head">{product.producttitle}</p>
