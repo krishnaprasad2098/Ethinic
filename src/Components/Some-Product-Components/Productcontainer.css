@@ -94,7 +94,7 @@
     display:grid;
     place-items: center;
 }
-.showmore-btn :hover{
+.moredetails-button button :hover{
 color:#ffbb00;
 background-color: antiquewhite;
 }
