@@ -16,7 +16,7 @@
     
     display:grid;
     grid-template-columns: 1fr 1fr 1fr;
-    align-items: center;
+    align-items: stretch;
     margin-top: 20px;
    padding:1rem;
     gap:0.5rem;
